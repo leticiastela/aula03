@@ -24,4 +24,9 @@ public class ContatoTest {
 		cdao.inserir(contato);
 		assertTrue("O contato não foi adicionado.", cdao.existe(contato));
 	}
+	
+	@Test
+	public void excluir Test() {
+		cdao.excluir(contato);
+	}
 }
