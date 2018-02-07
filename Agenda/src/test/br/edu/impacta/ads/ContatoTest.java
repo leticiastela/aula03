@@ -26,7 +26,7 @@ public class ContatoTest {
 	}
 	
 	@Test
-	public void existeTest() {
+	public boolean existeTest() {
 		cdao.existe(contato);
 	}
 }
