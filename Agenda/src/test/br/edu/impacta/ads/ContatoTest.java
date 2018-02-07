@@ -27,7 +27,7 @@ public class ContatoTest {
 	
 	@Test
 	public boolean existeTest() {
-		boolean retonro = cdao.existe(contato);
+		boolean retorno = cdao.existe(contato);
 		return retorno;
 	}
 }
