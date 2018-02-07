@@ -26,7 +26,7 @@ public class ContatoTest {
 	}
 	
 	@Test
-	public void excluirTest() {
-		cdao.remover(contato);
+	public void existeTest() {
+		cdao.existe(contato);
 	}
 }
