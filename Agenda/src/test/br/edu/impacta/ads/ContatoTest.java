@@ -27,6 +27,6 @@ public class ContatoTest {
 	
 	@Test
 	public void excluirTest() {
-		cdao.excluir(contato);
+		cdao.remover(contato);
 	}
 }
